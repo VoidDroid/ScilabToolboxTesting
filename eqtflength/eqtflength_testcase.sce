@@ -50,6 +50,7 @@ res = [b_o a_o N M];
 
 assert_checkalmostequal(res,desiredRes);
 
+// zero coefficients for some delay terms
 // FAILED
 
 // ***********
@@ -63,6 +64,7 @@ b = [1 2 3];
 [b_o,a_o,N,M] = eqtflength(b,a);
 res = [b_o a_o N M];
 
+// i/p is not a number
 // FAILED
 
 // ************
@@ -78,7 +80,7 @@ res = [b_o a_o N M];
 
 assert_checkalmostequal(res,desiredRes);
 
-// o/p values conjugated
+// complex i/p coefficients, o/p values conjugated
 // FAILED
 
 // ***********
@@ -92,6 +94,7 @@ b = [1 2 3];
 [b_o,a_o,N,M] = eqtflength(b,a);
 res = [b_o a_o N M];
 
+// den is zero
 // FAILED
 
 // ***********
@@ -138,6 +141,7 @@ b = [0 0 0];
 [b_o,a_o,N,M] = eqtflength(a,b);
 res = [b_o a_o N M];
 
+// all coefficients are zero
 // FAILED
 
 // ***********
@@ -170,6 +174,7 @@ res = [b_o a_o N M];
 
 assert_checkalmostequal(res,desiredRes);
 
+// den is infinite
 // FAILED
 
 // ***********
@@ -185,6 +190,7 @@ res = [b_o a_o N M];
 
 assert_checkalmostequal(res,desiredRes);
 
+// trailing zeros on num
 // PASSED
 
 // ***********
@@ -200,6 +206,7 @@ res = [b_o a_o N M];
 
 assert_checkalmostequal(res,desiredRes);
 
+// trailing zeros for both num & den
 // PASSED
 
 // ***********
@@ -215,6 +222,7 @@ res = [b_o a_o N M];
 
 assert_checkalmostequal(res,desiredRes);
 
+// exponent input
 // PASSED
 
 // ***********
@@ -230,6 +238,7 @@ res = [b_o a_o N M];
 
 assert_checkalmostequal(res,desiredRes);
 
+// irrational input
 // PASSED
 
 // ***********
@@ -261,4 +270,5 @@ res = [b_o a_o N M];
 
 assert_checkalmostequal(res,desiredRes);
 
+// same coefficient values
 // PASSED
