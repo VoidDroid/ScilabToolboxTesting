@@ -58,13 +58,11 @@ assert_checkalmostequal(res,desiredRes);
 
 isin = []
 
-desiredRes = 0.9510565
+// desiredRes = error, atleast one input value
 [k] = is2rc(isin);
 res = [k];
 
-assert_checkalmostequal(res,desiredRes);
-
-// isin is a real value
+// isin is an empty input
 // FAILED
 
 // ***********
@@ -137,8 +135,8 @@ res = [k];
 
 assert_checkalmostequal(res,desiredRes);
 
+// exponent
 // PASSED
-
 
 // ***********
 // Test case 10
@@ -150,4 +148,20 @@ isin = ['abc']
 [k] = is2rc(isin);
 res = [k];
 
+// string input
+// PASSED
+
+// ***********
+// Test case 11
+// ***********
+
+isin = [0.2 0.3; 0.6 -0.4]
+
+desiredRes = [0.3090170 0.4539905; 0.8090170 -0.5877853]
+[k] = is2rc(isin);
+res = [k];
+
+assert_checkalmostequal(res,desiredRes);
+
+// matrix input
 // PASSED
