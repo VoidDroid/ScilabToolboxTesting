@@ -1,4 +1,4 @@
-// test cases for seqlength()
+// test cases for seqperiod()
 // Author: Deepankar Chanda
 
 funcprot(0)
