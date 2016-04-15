@@ -2,7 +2,7 @@
 // Author: Deepankar Chanda
 
 funcprot(0)
-exec('seqlength.sci',-1); 
+exec('seqperiod.sci',-1); 
 
 // ***********
 // Test case 1
