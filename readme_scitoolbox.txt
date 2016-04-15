@@ -28,8 +28,8 @@ Function name: is2rc()
 Report name: is2rc_testcase.sce
 
 Total testcases - 11
-Passed - 4
-Failed - 7
+Passed - 7
+Failed - 4
 
 Outlined Issues:
 Calculates value for invs < -1 & invs > 1
@@ -39,7 +39,6 @@ Incorrect o/p for no input value
 
 ************************************
 Function name: seqperiod()
-
 
 Report name: seqperiod_testcase.sce
 
