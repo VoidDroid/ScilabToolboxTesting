@@ -1,5 +1,4 @@
 // test cases for is2rc()
-// Author: Deepankar Chanda
 
 funcprot(0)
 exec('is2rc.sci',-1); 
