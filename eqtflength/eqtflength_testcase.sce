@@ -1,5 +1,4 @@
 // test cases for eqtflength()
-// Author: Deepankar Chanda
 
 funcprot(0)
 exec('eqtflength.sci',-1); 
