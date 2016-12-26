@@ -1,4 +1,3 @@
-// Author: Deepankar Chanda
 // Testcases for Signal Processing SciLab Toolbox written by FOSSEE Project
 
 ************************************
