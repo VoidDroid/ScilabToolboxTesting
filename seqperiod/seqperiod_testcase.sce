@@ -1,5 +1,4 @@
 // test cases for seqperiod()
-// Author: Deepankar Chanda
 
 funcprot(0)
 exec('seqperiod.sci',-1); 
